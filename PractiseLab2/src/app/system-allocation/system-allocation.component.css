@@ -1,5 +1,7 @@
 .text-color{
     color:rgb(43, 195, 241);
+    text-align: center;
+    margin-top: 2px;
 }
 
 .size{
@@ -9,3 +11,17 @@
 .style{
     font-style: italic;
 }
+
+.text-green{
+    color:green;
+}
+
+.text-red{
+    color:red;
+}
+
+.text-yellow{
+    color:yellow;
+}
+
+

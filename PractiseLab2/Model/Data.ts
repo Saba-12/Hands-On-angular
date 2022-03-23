@@ -5,3 +5,8 @@ export class AvailableSystem{
     SystemName:string;
     SystemModel:string;
 }
+
+export class System{
+    SystemName:string;
+    SystemModel:string;
+}
