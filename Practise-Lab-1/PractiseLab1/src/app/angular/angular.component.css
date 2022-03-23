@@ -1,0 +1,18 @@
+.title{
+    color:brown;
+    padding: 2px;
+    margin-left: 30px;
+}
+
+ul {
+    background: #3399ff;
+    padding: 20px;
+    margin-right: 1300px;
+    font-family: 'Merriweather', serif;
+  }
+
+  ul li {
+    background: #cce5ff;
+    color: darblue;
+    margin: 15px;
+  }
