@@ -16,7 +16,8 @@
       <tr *ngFor="let e of AvailableSystems">
         <td scope="col">{{e.EmployeeName}}</td>
         <td scope="col" [style.color]="e.EmployeeStatus=='Active'?'green':'red'">{{e.EmployeeStatus}}</td>
-        <td scope="col" [style.color]="e.EmployeeRequest=='Approved'?'green':''">{{e.EmployeeRequest}}</td>
+        <!-- <td scope="col" [style.color]="e.EmployeeRequest=='Approved'?'green':''">{{e.EmployeeRequest}}</td> -->
+        <td [ngStyle]=" (e.EmployeeRequest === 'Approved') && {'color':'#42f572'} || (e.EmployeeRequest === 'Rejected') && {'color':'red'} || (e.EmployeeRequest === 'Yet-to-apply') && {'color':'  #FFFF66'} ">{{e.EmployeeRequest}}</td>
         <td scope="col">{{e.SystemName}}</td>
         <td scope="col">{{e.SystemModel}}</td>
       </tr>
